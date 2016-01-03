@@ -8,10 +8,8 @@ Oracle Storage Cloud Service is based on OpenStack SWIFT (Object Storage).
 This sample project shows 3 different ways to serve static content:
 
 * "Hard coding" the URL associated to the static content.
-    <img src=&quot;https://em2.storage.oraclecloud.com/v1/storagetrial5906-ieoracletrial87560/static/lion.png&quot; />
 
 * Using a constant in JSP.
-    <img src=&lt;img src=&lt;%=Constants.storageURL + element %&gt; /&gt; %> />
 
 * Using a Servlet to retrieve the static content without changing any code.
 
