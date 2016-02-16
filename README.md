@@ -32,7 +32,7 @@ To retrieve the data without changing the code, we created a Servlet that handle
 It's important to note that static content needs to be uploaded in the same folder structure to Storage Cloud Service in order to minimize code changes.
 Uploading data can be done through [Oracle Storage Cloud Java SDK](http://www.oracle.com/technetwork/topics/cloud/downloads/cloud-service-java-sdk-2121032.html), [REST API](http://docs.oracle.com/cloud/latest/storagecs_common/index.html) or other OpenStack SWIFT compatible technologies such as [CloudBerry Explorer](http://www.cloudberrylab.com/blog/how-to-use-cloudberry-explorer-with-oracle-cloud-storage/), [python-swiftclient](https://github.com/openstack/python-swiftclient) module for Python, etc.
 
-Do not forget to include the proper certificates into the JVM to allow the Servlet perform a secure connection and collect the static content. In case that is a development/testing environment, you could just disable the certificate checking when starting WebLogic Server, but this is not suggested as a best practice.
+Do not forget to include the proper certificates into the JVM to allow the Servlet perform a secure connection and collect the static content. In case that is a development/testing environment, you could just disable the certificate checking when starting the application server, but this is not suggested as a best practice.
 
 ## Additional Info
 * [Oracle Cloud Platform](http://cloud.oracle.com/)
